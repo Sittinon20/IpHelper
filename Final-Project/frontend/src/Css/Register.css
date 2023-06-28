@@ -1,0 +1,32 @@
+.link {
+  color: #3269a8 !important;
+}
+
+.link:hover {
+  text-decoration: underline !important;
+}
+
+.footer {
+  background-color: white !important;
+}
+
+.container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 800px;
+}
+
+.h1_login {
+  font-family: "Sora", sans-serif;
+  font-size: calc(
+    32px + (24 - 16) * ((100vw - 768px) / (1600 - 768))
+  ) !important;
+  color: #484848;
+}
+
+.notice {
+  text-align: start;
+  color: red;
+  margin-top: 10px;
+  margin-left: 12px;
+}
